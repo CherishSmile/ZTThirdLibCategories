@@ -40,7 +40,7 @@
 		1D688BE84BAAEC493C4BD428 /* Pods-ZTThirdLibCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTThirdLibCategories_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTThirdLibCategories_Example/Pods-ZTThirdLibCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2F2EDB69F2159C21085CB9D5 /* Pods_ZTThirdLibCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTThirdLibCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF82835E31AD05036D3B930 /* Pods-ZTThirdLibCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTThirdLibCategories_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZTThirdLibCategories_Tests/Pods-ZTThirdLibCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		578B145878B7E423AC96577A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		578B145878B7E423AC96577A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZTThirdLibCategories_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTThirdLibCategories_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		8312EC4054C9CEBD9CC721A8 /* Pods-ZTThirdLibCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTThirdLibCategories_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTThirdLibCategories_Example/Pods-ZTThirdLibCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		940B824B253AE2823927E5A8 /* Pods-ZTThirdLibCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTThirdLibCategories_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZTThirdLibCategories_Tests/Pods-ZTThirdLibCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A10EC7DF6100E17D18DEA312 /* ZTThirdLibCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTThirdLibCategories.podspec; path = ../ZTThirdLibCategories.podspec; sourceTree = "<group>"; };
-		ED979237B3FC53B9EDF5DDA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A10EC7DF6100E17D18DEA312 /* ZTThirdLibCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTThirdLibCategories.podspec; path = ../ZTThirdLibCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED979237B3FC53B9EDF5DDA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F810A21CE946753FA6A233FD /* Pods_ZTThirdLibCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTThirdLibCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				2FF82835E31AD05036D3B930 /* Pods-ZTThirdLibCategories_Tests.debug.xcconfig */,
 				940B824B253AE2823927E5A8 /* Pods-ZTThirdLibCategories_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

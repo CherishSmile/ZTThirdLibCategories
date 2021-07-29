@@ -1,0 +1,16 @@
+PODS:
+  - ZTThirdLibCategories (0.1.0)
+
+DEPENDENCIES:
+  - ZTThirdLibCategories (from `../`)
+
+EXTERNAL SOURCES:
+  ZTThirdLibCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTThirdLibCategories: 3ad3e30f0a3a46cf525c97de9882ff7cc208cf52
+
+PODFILE CHECKSUM: 1e883d535aa719bc54cbd59ad0aac5da80dcafab
+
+COCOAPODS: 1.10.1

@@ -17,6 +17,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
   
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
   
   s.source_files = 'ZTThirdLibCategories/ZTThirdLibCategories.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTThirdLibCategories/ZTThirdLibCategories.framework'

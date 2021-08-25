@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTThirdLibCategories'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ZTBaseView is the basic framework of OC project.'
   s.homepage         = 'https://github.com/CherishSmile/ZTThirdLibCategories'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   
   s.source_files = 'ZTThirdLibCategories/ZTThirdLibCategories.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTThirdLibCategories/ZTThirdLibCategories.framework'
-  s.public_header_files = 'ZTThirdLibCategories/ZTThirdLibCategories.framework/Headers/*.{h}'
 
   s.dependency 'SDWebImage'
   s.dependency 'SDWebImage/GIF'
